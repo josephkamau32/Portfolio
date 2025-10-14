@@ -1,11 +1,13 @@
-# 🚀 Modern Developer Portfolio
+# 🚀 Joseph Kamau's Portfolio
 
-A stunning, fully responsive developer portfolio built with modern web technologies. Features smooth animations, dark/light theme support, and an elegant design system.
+> *Crafting digital experiences with precision and passion*
 
-![Portfolio Preview](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
-![React](https://img.shields.io/badge/React-18.3.1-blue?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?style=for-the-badge&logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0+-38bdf8?style=for-the-badge&logo=tailwind-css)
+A stunning, fully responsive developer portfolio built with modern web technologies. Features smooth animations, dark/light theme support, and an elegant design system that showcases the perfect blend of creativity and technical expertise.
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-success?style=for-the-badge&logo=vercel)](https://portfolio-wheat-ten-e934coi9er.vercel.app/)
+[![React](https://img.shields.io/badge/React-18.3.1-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0+-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
 ## ✨ Features
 
@@ -46,9 +48,9 @@ A stunning, fully responsive developer portfolio built with modern web technolog
 - **React Router** - Client-side routing
 
 ### Backend
-- **Lovable Cloud** - Integrated backend platform
-- **Supabase** - Edge Functions for serverless API
-- **Resend** - Email delivery service
+- **Supabase** - Edge Functions for serverless API and database
+- **Resend** - Email delivery service for contact forms
+- **Vercel** - Modern hosting and deployment platform
 
 ### Additional Libraries
 - **next-themes** - Theme management
@@ -67,8 +69,8 @@ A stunning, fully responsive developer portfolio built with modern web technolog
 
 1. **Clone the repository**
 ```bash
-git clone <YOUR_GIT_URL>
-cd <YOUR_PROJECT_NAME>
+git clone https://github.com/your-username/kamau-portfolio.git
+cd kamau-portfolio
 ```
 
 2. **Install dependencies**
@@ -78,8 +80,9 @@ npm install
 
 3. **Set up environment variables**
 ```bash
-# Copy the example env file
-cp .env.example .env
+# Create environment file for Supabase and email configuration
+cp .env.example .env.local
+# Add your Supabase URL and API keys
 ```
 
 4. **Start the development server**
@@ -87,7 +90,7 @@ cp .env.example .env
 npm run dev
 ```
 
-The app will be available at `http://localhost:8080`
+The app will be available at `http://localhost:5173` (Vite default port)
 
 ## 📁 Project Structure
 
@@ -166,7 +169,7 @@ The design system uses semantic tokens defined in `src/index.css`:
 ### Configure Contact Form
 
 1. Set up your email service (Resend API key)
-2. Add the secret via Lovable Cloud
+2. Configure Supabase environment variables
 3. Update recipient email in `supabase/functions/send-contact-email/index.ts`
 
 ## 📧 Contact Form Setup
@@ -175,26 +178,22 @@ The portfolio includes a fully functional contact form powered by Supabase Edge 
 
 1. The form is already integrated in `src/components/Contact.tsx`
 2. Email delivery is handled via `supabase/functions/send-contact-email/`
-3. Configure your RESEND_API_KEY in the Lovable Cloud backend
+3. Configure your RESEND_API_KEY in your Supabase environment
 4. Update the recipient email address in the edge function
 
 ## 🚀 Deployment
 
-### Deploy with Lovable
+### Deploy to Vercel (Recommended)
 
-1. Click the **Publish** button in the Lovable editor
-2. Your site will be live at `yoursite.lovable.app`
-3. Optionally connect a custom domain in Settings → Domains
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/your-repo)
+
+1. Connect your GitHub repository to Vercel
+2. Configure environment variables in Vercel dashboard
+3. Deploy automatically on every push to main branch
 
 ### Deploy to Other Platforms
 
 The project can be deployed to any static hosting service:
-
-**Vercel**
-```bash
-npm run build
-vercel deploy
-```
 
 **Netlify**
 ```bash
@@ -202,10 +201,16 @@ npm run build
 netlify deploy --prod --dir=dist
 ```
 
-**GitHub Pages / Cloudflare Pages**
+**GitHub Pages**
 ```bash
 npm run build
-# Upload the dist/ folder
+# Push dist/ folder to gh-pages branch
+```
+
+**Cloudflare Pages**
+```bash
+npm run build
+# Connect repository and deploy dist/ folder
 ```
 
 ## 🔧 Available Scripts
@@ -234,17 +239,25 @@ Contributions, issues, and feature requests are welcome!
 
 ## 💡 Inspiration & Credits
 
-- Built with [Lovable](https://lovable.dev)
-- UI Components by [shadcn/ui](https://ui.shadcn.com)
-- Icons by [Lucide](https://lucide.dev)
-- Hosted on Lovable Cloud with Supabase
+- UI Components by [shadcn/ui](https://ui.shadcn.com) - Beautiful, accessible components
+- Icons by [Lucide](https://lucide.dev) - Consistent icon system
+- Hosted on [Vercel](https://vercel.com) with [Supabase](https://supabase.com)
+- Design inspiration from modern web standards and best practices
 
-## 📞 Support
+## 📞 Contact & Support
 
-For support, email your contact email or open an issue in the repository.
+**Developer**: Joseph Kamau  
+**Email**: [iamjosephkamau@gmail.com](mailto:iamjosephkamau@gmail.com)  
+**Portfolio**: [https://portfolio-wheat-ten-e934coi9er.vercel.app/](https://portfolio-wheat-ten-e934coi9er.vercel.app/)
+
+For support, collaboration, or just to say hello, feel free to reach out!
 
 ---
 
-**Built with ❤️ using Lovable, React, and TypeScript**
+<div align="center">
 
-**Project URL**: https://lovable.dev/projects/83448a3f-d56b-40a3-98cb-1c1f267d3bff
+**Built with ❤️ by Joseph Kamau using React, TypeScript, and modern web technologies**
+
+*Crafting exceptional digital experiences, one line of code at a time* ✨
+
+</div>
