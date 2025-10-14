@@ -4,7 +4,7 @@
 
 A stunning, fully responsive developer portfolio built with modern web technologies. Features smooth animations, dark/light theme support, and an elegant design system that showcases the perfect blend of creativity and technical expertise.
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-success?style=for-the-badge&logo=vercel)](https://portfolio-wheat-ten-e934coi9er.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-success?style=for-the-badge&logo=vercel)](https://josephkamau.telivus.co.ke/)
 [![React](https://img.shields.io/badge/React-18.3.1-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0+-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
@@ -248,7 +248,7 @@ Contributions, issues, and feature requests are welcome!
 
 **Developer**: Joseph Kamau  
 **Email**: [iamjosephkamau@gmail.com](mailto:iamjosephkamau@gmail.com)  
-**Portfolio**: [https://portfolio-wheat-ten-e934coi9er.vercel.app/](https://portfolio-wheat-ten-e934coi9er.vercel.app/)
+**Portfolio**: [https://josephkamau.telivus.co.ke/](https://josephkamau.telivus.co.ke/)
 
 For support, collaboration, or just to say hello, feel free to reach out!
 
