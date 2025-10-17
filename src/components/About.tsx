@@ -42,7 +42,7 @@ export function About() {
           <div className="grid lg:grid-cols-2 gap-12 mb-12 items-center">
             <div className="order-2 lg:order-1 space-y-6 animate-fade-in-up">
               <p className="text-lg leading-relaxed">
-                I'm a full-stack software engineer with a passion for building modern,
+                I'm a full-stack and AI software engineer with a passion for building modern,
                 user-centric applications. My expertise spans across web development,
                 AI integration, and creating scalable solutions.
               </p>
