@@ -74,7 +74,7 @@ export function Hero() {
               size="lg"
               variant="outline"
               onClick={() => {
-                window.open("https://docs.google.com/document/d/YOUR_RESUME_LINK/edit", "_blank");
+                window.open("/resume.pdf", "_blank");
               }}
               className="font-semibold"
             >
