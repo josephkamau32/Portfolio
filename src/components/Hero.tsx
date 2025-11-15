@@ -74,7 +74,7 @@ export function Hero() {
               size="lg"
               variant="outline"
               onClick={() => {
-                window.open("/resume.pdf", "_blank");
+                window.open("https://drive.google.com/file/d/1t8x-dOTEuRJs2Q4RQtu8N4gzhPVm3rMa/view?usp=sharing", "_blank");
               }}
               className="font-semibold"
             >
